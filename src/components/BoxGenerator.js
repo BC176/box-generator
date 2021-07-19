@@ -10,8 +10,14 @@ const BoxGenerator = (props) => {
         setColor("");
     }
 
+    // const myStyle = {
+    //     backgroundColor: `${x}`,
+    //     width: `${y}`,
+    //     height: `${y}`
+    // }
+
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} style={{ textAlign: "center" }}>
             <div>
                 <label>Color:</label>
                 <input autoFocus type="text"
